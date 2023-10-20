@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Login</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f0f2f5;
+        }
+
+        .container {
+            max-width: 360px;
+            margin: 0 100px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+              box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+            text-align: center;
+            margin-top: 100px;
+        }
+
+        .form-group {
+            margin-top: 0px;
+        }
+		.form-control {
+		    padding: 23px;
+		}
+
+        .login {
+            background-color: #1877f2;
+            color: #fff;
+            width: 100%;
+            padding: 8px;
+            border: none;
+            border-radius: 5px;
+        }
+		.login:hover {color:#fff; }
+		.btn-create{
+		    background-color: #42b72a;
+            color: #fff;
+            !width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+		}
+		.btn-create:hover {color:#fff;background-color:#32bb28 }
+		.newpage {
+		margin-left: 120px;
+		padding:25px;
+		font-size:13px;
+		}
+		.create{
+		color:rgba(0,0,0,0.8);
+
+		}
+		#img{
+		margin-top:175px;
+		margin-left:160px;
+		color:#000;
+		}
+		.logotext{
+		font-size:25px;
+		}
+    </style>
+</head>
+<body>
+<div class="row">
+<div class="col" id="logo">
+<div id="img">
+<img src="facebook.png" width="340px " ><br>
+<p class="logotext" style="margin-left:50px">Facebook helps you connect and share with the people in your life.</p>
+
+</div>
+</div>
+<div class="col">
+    <div class="container">
+        <form>
+            <div class="form-group">
+                <input type="email" class="form-control" placeholder="Email address or phone number">
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control" placeholder="Password">
+            </div>
+			<a href="page2.html"><input class="login" type="submit" value="Log In"></a>
+			
+        </form>
+        <p style="margin-top:7px"><a href="#"><small>Forgotten password?</small></a></p>
+        <hr>
+         <button type="submit" class="btn btn-create"><b>Create new account</b></button>
+    </div>
+	<p class="newpage"><a class ="create" href="#"><b>Create a Page</a></b> for a celebrity, brand or business.</p>
+	</div>
+	
+</div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
